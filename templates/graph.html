@@ -1,0 +1,14 @@
+{% extends 'layout.html' %} {%block content%}
+
+<h1>{{intro}}</h1>
+<h2>{{about}}</h2>
+<div>
+    <embed src="{{graph_data|safe}}" style='max-width:1000px' type="image/svg+xml">
+
+</div>
+
+{%endblock content%} {%block mass%}
+<div>
+    <embed src="{{graphics_data|safe}}" style='max-width:1000px' type="image/svg+xml">
+</div>
+{%endblock mass%}

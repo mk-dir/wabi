@@ -1,0 +1,5 @@
+{% extends 'layout.html'%} {%block content%} {%for post in posts %}
+<h1>{{ post['Title']}} </h1>
+<p>{{post['Author']}}</p>
+<p>{{post['Post_Date']}}</p>
+{% endfor %} {% endblock content%}
