@@ -177,16 +177,16 @@ def profile():
     insert into inventory (id, name, type, bp, sp) values (99, 'Truffle Shells - Semi - Sweet', 'fruits', 54, 67.5);
     insert into inventory (id, name, type, bp, sp) values (100, 'Stock - Fish', 'vegetables', 17, 21.25);""")
 
-conn.commit()
+    conn.commit()
 
-#close connection
-cur.close()
+    #close connection
+    cur.close()
 
-conn.close()
+    conn.close()
 
     
 
-return 'Hello World'
+    return 'Hello World'
 
 
 
